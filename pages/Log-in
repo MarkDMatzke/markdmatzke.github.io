@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> mailing list signup</title>
+<meta charset=utf-8>
+</head>
+<bosy>
+<h1> mailing list signup</h1>
+<form action=/mailinglist.php" method="POST">
+<fieldset>
+<legend> join our email list </legend>
+<p> Get news about the band such as tour dates and special MP3 releases sent to your wwn in-box.</p>
+<ol>
+<li><label for=firstlast"> Name:</label>
+<input type="text" name="fullname" id="firstlast"></li>
+<li> <label for ="email">Email:</label>
+<input type=text name="email" id="emial"></li>
+</ol>
+<input type="sub,ot" value="subit">
+</fieldset>
+</form>
+<body>
+</html>
