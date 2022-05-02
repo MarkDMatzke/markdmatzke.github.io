@@ -1,0 +1,79 @@
+
+
+<!DOCTYPE html>
+<html lang="eg">
+<html>
+  <head>
+  <meta chardet="utf-8">
+<title>MY fauilure's </title>
+    <style>
+      td, th {border:1px solid #CCC;}
+      table {border:1px solid gray;}
+    </style>
+</head>
+  <body>
+    <center>
+    <table> 
+    <tr>
+      <th> <a href="../index.html"><button type="button"> <img src="/image/button/home button.png" width="76" height="50"></button> </a>
+      <th> <a href="/pages/monster.html"><button type="button"> <img src="/image/button/monsterbuttom.png" width="76" height="50"></button> </a>
+      <th> <a href="/pages/page1.html"><button type="button"> <img src="/image/button/battlebuttom.png" width="76" height="50"></button></a>
+      <th> <a href="/pages/Log-in.html"><button type="button"><img src="/image/button/Log-inbuttom.png" width="76" height="50"></button></a>
+      <th> <a href="/pages/Info.html"> <button type="button"><img src="/image/button/Infobuttom.png" width"76" height="50"></button></a>
+     
+    </tr>
+      </table> 
+    </center>
+    <scipt type="text/javascript">
+      window.addEventListener('load', evenWindowLoaded, false);
+      funtion eventWindowLoaded() {
+      canvasApp();
+      }
+      funtion canvasApp(){
+      var theCanvas = document.getElementByID('my_first_canvas'):
+      var my_canvas = theCavas.getContext('2d');
+      my_canvas.strokeRect(0,0,200,225)
+      // to start, draw a border around the canvas
+      //draw face
+      my_canvas.beginpath();
+      my_canvas.arc(100, 100, 75, (Math.PI/180)*0, (Math.PI/180)*360, false);
+      // circle dimensions
+      my_canvas.StrokeStyle ="black" // circle outline is black
+      my_canvas.linewidth =3; // outline is three pixels wide
+      my_canvas.FillStyle = "yellow"; // fill circle with yellow
+      my_canvas.stroke(); // draw circle 
+      my_canvas.fill();
+      my_canvas.closePath();
+      // now , draw left eye
+      my_canvas.fillStyle = "black";
+      my_canvas.beginPath();
+      my_canvas.arc(65, 70, 10, ( Math.PI/180)*0, (Math.PI/180*360, false);
+        // circle dimstions 
+      my_canvas.stroke(); // draw circle
+      my_canvas.fill(); //fill in circel 
+      my_canvas.closePath();
+      
+      // now the right eyes
+   
+      my_canvas.beginPath();
+     my_canvas.arc(135, 70, 10, (Math.PI/180)*0, (Math.PI/180)*360, false);
+        // circle dimstions 
+      my_canvas.stroke(); // draw circle
+      my_canvas.fill(); //fill in circel 
+      my_canvas.closePath();
+      
+      // draw smile 
+      my_canvas.lineWidth = 6;
+      my_canvas.beginPath();
+      my_canvas.arc(99, 120, 35, (Math.PI/180)*0, (Math.PI/180)*-180, false);
+      my_canvas.stroke(); 
+      my_canvas.closePath();
+      
+      
+       my_canvas.FillStyle = "black";
+      my_canvas.font   = '20px _sans';
+      my_canas.fillText ("Hello CAnvas!", 45, 200);
+      }
+      </script>
+    </body>
+</html>
