@@ -25,22 +25,22 @@
       </table> 
     </center>
     <script type="text/javascript">
-      window.addEventListener('load', evenWindowLoaded, false);
-      funtion eventWindowLoaded() {
+      window.addEventListener('load', eventWindowLoaded, false);
+      function eventWindowLoaded() {
       canvasApp();
       }
-      funtion canvasApp(){
-      var theCanvas = document.getElementByID('my_first_canvas'):
+      function canvasApp(){
+      var theCanvas = document.getElementById('my_first_canvas'):
       var my_canvas = theCavas.getContext('2d');
       my_canvas.strokeRect(0,0,200,225)
       // to start, draw a border around the canvas
       //draw face
-      my_canvas.beginpath();
+      my_canvas.beginPath();
       my_canvas.arc(100, 100, 75, (Math.PI/180)*0, (Math.PI/180)*360, false);
       // circle dimensions
-      my_canvas.StrokeStyle ="black" // circle outline is black
-      my_canvas.linewidth =3; // outline is three pixels wide
-      my_canvas.FillStyle = "yellow"; // fill circle with yellow
+      my_canvas.strokeStyle = "black"; // circle outline is black
+      my_canvas.lineWidth = 3; // outline is three pixels wide
+      my_canvas.fillStyle = "yellow"; // fill circle with yellow
       my_canvas.stroke(); // draw circle 
       my_canvas.fill();
       my_canvas.closePath();
