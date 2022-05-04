@@ -28,7 +28,8 @@
     <canvas width="600" heigth="600" id="my_first_canvas">
       Your browsers does not support HTML5 canvas. Try using Chrome,Firefox,Safari or MS Edge.
       </canvas>
-    <script type="text/javascript">
+    
+<script type="text/javascript">
      
 window.addEventListener('load', eventWindowLoaded, false);
 
@@ -73,9 +74,12 @@ function canvasApp() {
   my_canvas.lineWidth = 6;
   my_canvas.beginPath();
   my_canvas.arc(99, 120, 35, (Math.PI/180)*0, (Math.PI/180)*-180, false);
+  // semicircle dimensions
+  
   my_canvas.stroke();
   my_canvas.closePath();
-
+  
+  //
 
   my_canvas.fillStyle = "black";
   my_canvas.font = '20px _sans';
