@@ -1,5 +1,25 @@
+/*
 table {
   color:blue
+backgound:green
 } 
+*/
       h2 {color:darkred} 
+  
+img[src*="/image/]{
+border: 10px solid black;
+}
+script
+{center;} 
+#title {
+  color: #ffc400 rgb(255, 191, 0) ;
+}
+.subtitle {
+  color: rgb(255, 238, 0);
+}
+body{
+  background: rgb(255,250,250);
+}
+
+
   
