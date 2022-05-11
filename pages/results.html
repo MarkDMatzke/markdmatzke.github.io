@@ -1,19 +1,21 @@
 <!DOCTYPE html>
-<html lang="en"
-      <head>
- <meta Charset="UTF-8">
-<meta name"viewport" content="width=device-width,initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible content=ie=edge">
-<title> Results</title>
-</head>
-<body>
-  <div id-"results"></div>
-  <a href="/"> back to form</a>
-  <script>
-    const resultsList = docment.getEmementById('results') new URLSearchParams(window.location.seach).forEach((valur,name) =>{
-      resultsList.append('${name}:${value}')
-      resiltsList.append(document.creatElement('br"))
-                                               })
-                         </script>
-</body>
-</html> 
+<html lang="en"> <head>
+  <meta Charset="UTF-8">
+  <meta name"viewport" content="width=device-width,initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible content=ie=edge">
+  <title> Results</title>
+  </head>
+
+  <body>
+    <div id-"results"></div>
+    <a href="/"> back to form</a>
+    <script>
+      const resultsList = docment.getEmementById('results') new URLSearchParams(window.location.seach).forEach((valur, name) => {
+            resultsList.append('${name}:${value}')
+            resiltsList.append(document.createElement('br"))
+            })
+
+    </script>
+  </body>
+
+</html>
